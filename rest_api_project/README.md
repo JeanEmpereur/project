@@ -1,10 +1,10 @@
-#Comment start le projet :
+# Comment start le projet :
 
 lancer un wamp ou autre :)
 
 bien modifier les valeurs de la BD mysql dans le .env
 
-#Ensuite pour start le server symfony
+# Ensuite pour start le server symfony
 
 se mettre dans ce dossier et faire :
 
@@ -16,9 +16,9 @@ symfony server:start
 
 
 
-#Documentation de l'API : 
+# Documentation de l'API : 
 
-Users : 
+# Users : 
 
 model :
 -username
@@ -60,7 +60,7 @@ Responses :
 status 200 OK
 status 406 Not acceptable
 
-Articles :
+# Articles :
 
 model : 
 -titre
@@ -96,7 +96,7 @@ status 201 Created
 status 304 Not Modified
 status 200 Ok
 
-Dons :
+# Dons :
 
 model : 
 -prix
@@ -120,7 +120,7 @@ status 201 Created
 status 406 Not acceptable
 status 501 Not implemented
 
-Paniers :
+# Paniers :
 
 model : 
 -product:Product
@@ -163,7 +163,7 @@ status 201 Created
 status 304 Not Modified
 status 200 Ok
 
-Pets :
+# Pets :
 
 model : 
 -name
@@ -209,7 +209,7 @@ Afin de récuperer un 5 pet aléatoire
 Responses : 
 status 200 OK
 
-Products :
+# Products :
 
 model : 
 -prix
