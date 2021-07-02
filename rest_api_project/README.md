@@ -8,8 +8,12 @@ bien modifier les valeurs de la BD mysql dans le .env
 
 se mettre dans ce dossier et faire :
 
+```
+composer install
+```
+```
 symfony server:start
-
+```
 
 
 
